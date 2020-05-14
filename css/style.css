@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/*  BOOTSTRAP NARROW JUMBOTRON */
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+nav{
+  margin-bottom: 2em;
+}
+
+#home{
+  color: white;
+  padding-bottom: 0;
+  border-bottom: 2px white outset;
+  border-radius: 10%;
+}
+a{
+  color: black;
+  font-size: 1.25em;
+}
+.header,
+.job,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.separator{
+  border: 2px black outset;
+  border-radius: 50%;
+  margin-bottom: 2em;
+}
+
+.footer {
+  padding-top: 19px;
+  color: black;
+  border-top: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.job {
+  text-align: left;
+}
+.jumbotron .btn {
+  padding: 7px 12px;
+  font-size: 18px;
+}
+
+.job {
+  margin: 40px 0;
+}
+.job p + h4 {
+  margin-top: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .header,
+  .job,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .header {
+    margin-bottom: 30px;
+  }
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
